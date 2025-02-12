@@ -55,8 +55,6 @@
             <scope>runtime</scope>
         </dependency>
 
-
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
 		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
@@ -84,6 +82,12 @@
 			<scope>test</scope>
 		</dependency>
 	</dependencies>
+<!--	<repositories>-->
+<!--		<repository>-->
+<!--			<id>graalvm-releases</id>-->
+<!--			<url>https://maven.graalvm.org</url>-->
+<!--		</repository>-->
+<!--	</repositories>-->
 
 	<build>
 		<plugins>
